@@ -1,0 +1,66 @@
+.post-header {
+    position: absolute;
+    top: 0.7rem;
+    left: 4rem;
+}
+
+.post-header h2 {
+    font-size: 3.5rem;
+    color: #fff;
+   
+}
+.post-header h2 span {
+    background: linear-gradient(90deg,#d7aacf,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.horizontal-line {
+    width: 20%;
+    position: absolute;
+    top: 4.8rem;
+    left: 18rem;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    z-index: 1;
+    display: flex;
+  
+}
+
+.button-div {
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.browse-all-btn {
+    color: #fff;
+    position: relative;
+    top: 1.2rem;
+    right: 4rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg,#d7aacf,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
+    z-index: 1;
+    
+}
+
+.card-div {
+    max-height: 100vh;
+    display: flex;
+    position: relative;
+    top: 4.3rem;
+    z-index: 0;
+    left: 2.5rem;
+
+}
+

@@ -1,0 +1,180 @@
+.home-bg {
+    background-color: #000000;
+    height:100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+    width: fit-content;
+    position: relative;
+    color: white;
+    font-family: "PT Serif","Palatino Linotype",Palatino,Palladio,"URW Palladio L","Book Antiqua",Baskerville,"Bookman Old Style","Bitstream Charter","Nimbus Roman No9 L",Garamond,"Apple Garamond","ITC Garamond Narrow","New Century Schoolbook","Century Schoolbook","Century Schoolbook L",Georgia,serif;
+    left: 9%;
+    top: 20px;
+}
+
+.logo h1 {
+    background: linear-gradient(90deg,#d7aacf,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+}
+
+.dis {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.main-sec {
+    margin-top: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+}
+
+.sec-right {
+    position: relative;
+    width: max-content;
+    margin-left: auto;
+    right: 7rem;
+}
+
+.sec-right h1 {
+    margin-top: -7rem;
+    font-size: 9.9rem;
+}
+
+.grad {
+    background: linear-gradient(90deg,#d7aacf,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec-right h2 {
+    position: relative;
+    font-size:5.5rem;
+    bottom: 4rem;
+    left: 5px;
+    width: fit-content;
+
+}
+
+.sec-right p{
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 550px;
+    font-size:1rem;
+    padding: 0 13px;
+    right: 5px; 
+    bottom: 5rem;
+}
+
+.sec-left {
+    width: 10%;
+    height: 10%;
+   z-index: 2;
+   position: relative;
+   left: 18%;
+   top: 4rem;
+   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.sec-left:hover{
+    filter: invert(24%) sepia(100%) saturate(6809%) hue-rotate(324deg) brightness(98%) contrast(108%);
+}
+
+img.sec-left {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.sec-left {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-25px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-25px); }
+}
+
+.down {
+    width: fit-content;
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    bottom: 6rem;
+    transition: bottom 0.4s ease-out;
+}
+
+.down:hover {
+    color:#ff006f;
+    position: relative;
+    bottom: 5.6rem;
+    transition: 0.4s ease-in;
+}
+
+.newsletter {
+    position: relative;
+    bottom: 9rem;
+}
+
+.form-email {
+    font-size: 24px;
+    position: relative;
+    left: 8%;
+    height: 46px;
+    border-radius: 25px;
+    width: 300px;
+    background:transparent;
+    background-color: rgba(64,64,64,5);
+    outline:none;
+    border: 0;
+    color: rgb(255, 255, 255);
+    border: 0; 
+    padding: 7px 15px; 
+}
+
+::placeholder {
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.form-email:focus {
+    border: 1px solid #fff;
+}
+
+.btn-sub {
+    color: #fff;
+    position: relative;
+    border-radius: 10rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg,#d7aacf,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
+    left: 10%;
+    
+}
+      
+.btn-sub:hover {
+    box-shadow: none;
+    color: white;
+}
+
+.bgr {
+    position: fixed;
+    background-color:rgb(255, 255, 255);
+    z-index: 100;
+    color: #7b8fdd;
+}

@@ -1,0 +1,26 @@
+.nav-wrapper {
+    position: relative;
+    display: flex;
+    margin: auto;
+    font-size: 1.5rem;
+    left: 3.5rem;
+}
+
+.navs {
+    margin-top: auto;
+    color: rgb(255, 255, 255) !important;
+    padding: 0 1.5rem !important;
+}
+
+.navs:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: aquamarine;
+    transition: 0.5s;
+}
+
+.search {
+    position: relative;
+    margin-left: auto;
+    bottom: 3.2rem;
+    right: 8.3rem;
+}
